@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  h2:
+    image: buildo/h2database
+    container_name: h2-demo
+    hostname: h2-demo
+    ports:
+      - "9092:9092"
+      - "8082:8082"
+    environment:
+      LC_ALL: C.UTF-8
+      TZ: Asia/Seoul
