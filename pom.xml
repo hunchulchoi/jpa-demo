@@ -5,6 +5,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>hibernate-demo</module>
+        <module>jpabook05</module>
+        <module>jpa05</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

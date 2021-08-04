@@ -15,7 +15,8 @@
             <property name="hibernate.use_sql_comments" value="true"/>
             <property name="hibernate.id.new_generator_mappings" value="true"/>
             <property name="hibernate.hbm2ddl.auto" value="create"/>
-            <property name="spring.jpa.hibernate.naming-strategy" value="org.hibernate.cfg.EJB3NamingStrategy"/>
+            <property name="spring.jpa.hibernate.naming.implicit-strategy" value="org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy"/>
+            <property name="spring.jpa.hibernate.naming.physical-strategy" value="org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy"/>
 
         </properties>
     </persistence-unit>
